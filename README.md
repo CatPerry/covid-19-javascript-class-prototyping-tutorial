@@ -1,9 +1,9 @@
 To learn the basics of JavaScript Classes and the key native-JavaScript concept of prototying, let's build a modern example: CoronaVirus Class!
 
 ##Why care about creating Native JavaScript classes? 
-Technical interviews. 
+**Technical interviews.**
 
-No seriously, you'll be quickly skipped over if you dont know how to create these on the fly *sans Frameworks!* like React or Angular.
+No, seriously. **Learn how to create classes.** You'll be quickly skipped over if you dont know how to create these on the fly *sans Frameworks!* like React or Angular. I'm sure most engineers have been blind-sided by this before.
 
 ##Read the Documentation about JS Classes
 Read [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), [SitePoint Classes article](https://www.sitepoint.com/javascript-private-class-fields/) for everything  related to writing classes, or [W3CShools doc on JavaScript Classes](https://www.w3schools.com/js/js_classes.asp) for more.
