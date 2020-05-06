@@ -4,7 +4,8 @@ class CoronaVirus {
     this.virus = virus;
     this.ppeNumber = ppeNumber;
   }
-
+  
+  // getters
   get theVirus() {
     return "I'm a freakin virus! I'm infecting " + this.multiplies() + " people today." 
   }
@@ -21,7 +22,7 @@ class CoronaVirus {
     }
 
     let injectAmericanIndividualism = (country) => {
-      return country + ". HAHA! Syyyyyke!! It's all about " + country + " " + country + "! Until we need international military support; or cheap products from China to sell at low-low prices at Walmart Dollar General, or Bed Bath & Beyond; or other countries to sell our pork to...";
+      return country + ". HAHA! Syyyyyke!! It's all about " + country + " " + country + "!";
     }
 
     let curveBall = (country) => {
@@ -39,6 +40,7 @@ class CoronaVirus {
     return coronaDay42.theVirus + coronaDay42.ppeNow + coronaDay42.teamwork;
   }
 
+  // setters
   set teamwork(isThereTeamwork) {
     this.isThereTeamwork = isThereTeamwork;
   }
@@ -71,4 +73,3 @@ const coronaDay42 = new CoronaVirus(randomPeopleNumber, 1000, randomPpeNumber);
 coronaDay42.teamwork = randomYesOrNo;
 
 console.log(coronaDay42.fullStory);
-
