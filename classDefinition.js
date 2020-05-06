@@ -55,6 +55,7 @@ class CoronaVirus {
     }
   }
 
+  // methods
   multiplies() {
     return this.virus * this.people;
   }
@@ -69,6 +70,7 @@ class CoronaVirus {
 let randomPeopleNumber = Math.floor(Math.random() * 58494);
 let randomPpeNumber = Math.floor(Math.random() * 58492084);
 let randomYesOrNo = Math.floor(Math.random() * 2);
+// creates a new instance of the class
 const coronaDay42 = new CoronaVirus(randomPeopleNumber, 1000, randomPpeNumber);
 coronaDay42.teamwork = randomYesOrNo;
 
